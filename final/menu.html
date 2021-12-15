@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sleeping Giant Brew</title>
+    <link href="index.css" rel="stylesheet" type="text/css">
+    <link href="final.js">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-03SCCB50JL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-03SCCB50JL');
+</script>
+
+  </head>
+  <body>
+    <div id="wrap">
+    <header>
+      Sleeping Giant Brew
+
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="reviewus.html">Review Us</a></li>
+      </ul>
+    </nav>
+
+    <section>
+
+<h1 class="fan">Our Products</h1>
+
+      <!-- The grid: four columns -->
+
+      <div class="row">
+        <div class="column">
+          <img src="beans.jpg.webp" width="400px" height="400px" alt="Nature" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="coffeecup1.jpg.webp" width="400px" height="400px" alt="Snow" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="beans2.jpg.webp" width="400px" height="400px" alt="Mountains" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="coffeecup2.jpg.webp" width="400px" height="400px" alt="Lights" onclick="myFunction(this);">
+        </div>
+      </div>
+
+      <!-- The expanding image container -->
+      <div class="container">
+        <!-- Close the image -->
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+        <!-- Expanded image -->
+        <img id="expandedImg" style="width:100%">
+
+        <!-- Image text -->
+        <div id="imgtext"></div>
+      </div>
+
+      <h1 class="menu1">Menu</h1>
+      <p><img src="menu.jpg" alt="logo" class="menu"></p>
+
+    </section>
+
+    <footer>
+      <p>&copy; 2021 Sleeping Giant Brew</p>
+    </footer>
+  </div> <!--Close wrap-->
+  </body>
+</html>
